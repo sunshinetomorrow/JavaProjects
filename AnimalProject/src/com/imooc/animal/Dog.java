@@ -13,6 +13,7 @@ public class Dog extends Animal {
         this.sex = sex;
     }
 
+
     public void sleep(){
         super.eat();
         super.species="犬科";
@@ -20,14 +21,25 @@ public class Dog extends Animal {
     }
 
     //子类重写父类吃东西方法
+//    @Override
+//    protected void eat(){
+//        System.out.println(this.getName()+"最近没有食欲~~~");
+//    }
+
+//    @Override
+//    public void eat(
+//            String month){
+//        System.out.println(month+"最近没有食欲~~~");
+//    }
+
+
     @Override
-    protected void eat(){
-        System.out.println(this.getName()+"最近没有食欲~~~");
+    public void eat(String name) {
+        super.eat(name);
     }
 
     @Override
-    public void eat(
-            String month){
-        System.out.println(month+"最近没有食欲~~~");
+    public Dog create() {
+        return new Dog();
     }
 }

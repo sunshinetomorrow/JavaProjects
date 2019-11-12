@@ -64,7 +64,7 @@ final public  class Animal {
     }
 
     //吃东西
-    protected void  eat(){
+    public void  eat(){
 
         System.out.println(this.getName()+"在吃东西");
 
@@ -83,6 +83,11 @@ final public  class Animal {
 
     public String toString(){
         return "昵称："+this.getName()+";年龄："+this.getMonth();
+    }
+
+
+    public Animal create(){
+        return  new Animal();
     }
 
 }
