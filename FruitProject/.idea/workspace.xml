@@ -11,6 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="Fruits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imook/fruit/Fruits.java">
@@ -84,6 +85,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> javaProjectDev
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,7 +116,11 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="655" />
+=======
+    <option name="x" value="320" />
+>>>>>>> javaProjectDev
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
@@ -135,6 +143,7 @@
             <path>
               <item name="FruitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FruitProject" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,6 +165,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imook" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+>>>>>>> javaProjectDev
             </path>
           </expand>
           <select />
@@ -254,15 +266,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573544224098</updated>
+<<<<<<< HEAD
       <workItem from="1573544227307" duration="6478000" />
+=======
+      <workItem from="1573544227307" duration="8831000" />
+>>>>>>> javaProjectDev
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="6478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="655" y="23" width="1440" height="841" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="8831000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="320" y="23" width="1440" height="841" extended-state="0" />
+>>>>>>> javaProjectDev
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,10 +298,17 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.68682796" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.50537634" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2918455" />
+>>>>>>> javaProjectDev
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
