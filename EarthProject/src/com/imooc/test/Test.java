@@ -1,6 +1,7 @@
 package com.imooc.test;
 
-import com.imooc.earth.Earth;
+
+import com.imooc.earth.*;
 
 public class Test {
 
@@ -21,5 +22,28 @@ public class Test {
         System.out.println(one);
         System.out.println(two);
         System.out.println(three);
+
+        System.out.println("=========================");
+        SingletonTwo one1 = SingletonTwo.getInstance();
+        SingletonTwo two1 = SingletonTwo.getInstance();
+        System.out.println(one1);
+        System.out.println(two1);
+
+
+        System.out.println("=========================");
+        System.out.println("创建1号皇帝对象");
+        Emperor one2 = Emperor.getEmperor();
+
+        System.out.println("创建2号皇帝对象");
+        Emperor two2 = Emperor.getEmperor();
+
+        System.out.println("创建3号皇帝对象");
+        Emperor three2 = Emperor.getEmperor();
+
+        System.out.println("三个皇帝对象依次是：");
+        System.out.println(one2);
+        System.out.println(two2);
+        System.out.println(three2);
+
     }
 }
